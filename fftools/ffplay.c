@@ -2737,6 +2737,7 @@ static int is_realtime(AVFormatContext *s)
 }
 
 /* this thread gets the stream from the disk or the network */
+/* 这个线程从磁盘或者网络获取流*/
 static int read_thread(void *arg)
 {
     VideoState *is = arg;
